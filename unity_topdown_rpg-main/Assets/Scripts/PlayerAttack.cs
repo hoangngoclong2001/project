@@ -18,7 +18,12 @@ public class PlayerAttack : MonoBehaviour {
 	bool CanFire = true;
     float nextFire = 0;
 
-	private void Start() {
+    private void Awake()
+    {
+        SoundManager.Instance.AddToAudio(arrow);
+    }
+
+    private void Start() {
 	
 	}
 
@@ -51,7 +56,7 @@ public class PlayerAttack : MonoBehaviour {
             Arrow.ArrowVelocity = ArrowSpeed;
             Arrow.ArrowDamage = ArrowDamage;
 
-            arrow.Play();
+            SoundManager.Instance.Play(arrow);
             CanFire = false;
             ArrowGFX.enabled = false;
         }

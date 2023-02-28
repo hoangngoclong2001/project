@@ -10,6 +10,7 @@ public class PanelPause : MonoBehaviour
     {
         PauseMenuPanel.SetActive(false);
     }
+
     public void Pause()
     {
         PauseMenuPanel.SetActive(true);
@@ -31,5 +32,17 @@ public class PanelPause : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("Menu");
 
+    }
+
+    public void Mute()
+    {
+        SoundManager.Instance.MuteAll();
+        Resume();
+    }
+
+    public void Unmute()
+    {
+        SoundManager.Instance.PlayAll();
+        Resume();
     }
 }

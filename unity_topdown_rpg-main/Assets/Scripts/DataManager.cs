@@ -12,10 +12,6 @@ public class PlayerData
     public float[] position;
     public PlayerData()
     {
-        this.level = level;
-        this.health = health;
-        this.score = score;
-        this.position = position;
     }
 }
 public class DataManager : MonoBehaviour
