@@ -61,9 +61,9 @@ public class SoundManager : MonoBehaviour
         {
             foreach (AudioSource audioSource in audios)
             {
-                if (audioSource.isPlaying)
+                if (audioSource.isPlaying || !audioSource.mute)
                 {
-                    audioSource.volume = 0;
+                    audioSource.mute = true;
                 }
             }
         }
@@ -75,9 +75,9 @@ public class SoundManager : MonoBehaviour
         {
             foreach (AudioSource audioSource in audios)
             {
-                if (audioSource.isPlaying)
+                if (audioSource.isPlaying || audioSource.mute)
                 {
-                    audioSource.volume = 1;
+                    audioSource.mute = false;
                 }
             }
         }

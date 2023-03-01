@@ -12,20 +12,21 @@ public class PlayerHealth : MonoBehaviour {
     [SerializeField] public GameObject gamover;
     private bool shiel = false;
     public GameObject shied;
-    [SerializeField] public AudioSource she;
+    [SerializeField] public AudioSource audioSource;
     [SerializeField]
     TextMeshProUGUI healthText;
     private void Start() {
 		health = maxHealth;
 		healthSlider.maxValue = maxHealth;
         gamover.SetActive(false);
+        SoundManager.Instance.AddToAudio(audioSource);
     }
 
     public void Shield()
     {
         if (!shiel )
         {
-            she.Play();
+            SoundManager.Instance.Play(audioSource);
             shied.SetActive(true);
             shiel = true;
             Invoke("Noshield", 3f);
