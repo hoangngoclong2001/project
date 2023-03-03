@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 133124addd101c745a8a1e53a59e17bf, type: 3}
+  m_Sprite: {fileID: -589670836, guid: 0c1e734fa85636743af3bc22c6d99ba8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -139,7 +139,7 @@ MonoBehaviour:
   maxHealth: 30
   explosion: 0
   sprites:
-  - {fileID: 1586471666, guid: 0c1e734fa85636743af3bc22c6d99ba8, type: 3}
+  - {fileID: -2100716148, guid: 0c1e734fa85636743af3bc22c6d99ba8, type: 3}
   - {fileID: 1357091964, guid: 0c1e734fa85636743af3bc22c6d99ba8, type: 3}
   - {fileID: -2100716148, guid: 0c1e734fa85636743af3bc22c6d99ba8, type: 3}
   - {fileID: 408285054, guid: 0c1e734fa85636743af3bc22c6d99ba8, type: 3}
