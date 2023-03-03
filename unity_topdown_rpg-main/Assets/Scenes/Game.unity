@@ -436,7 +436,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 433d26a42a91f0f47ba4eb2f9b6a8c4d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ad40a4db078d8fb4abef31e6f683b418, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2462,7 +2462,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 87f14890860023347aa70afb5a78fa09, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f3749f1e2c634034eba5fd5a562ec86a, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2775,7 +2775,7 @@ Transform:
   m_GameObject: {fileID: 516149729}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.6, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2067742435}
@@ -2822,7 +2822,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: -1228767104509799492, guid: cf83df6fc24c94f3c97487429a985eb1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 18899eb6b570d7d4b8c2320eaf64b9f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -20906,7 +20906,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 358683bf9a9ef6c4cb40fa0dfcdbff97, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4c4fb2df235eff1489579090bd69116a, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -25172,7 +25172,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e1a2aec4f6ff6274f879bd5677991c6a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3ee08d159a7cdcb4f9a322433c2a363c, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -25370,7 +25370,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5db3849e7ba6e49c9883ed44eadab540, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 41c463f241c86a045b73a28aba3594af, type: 3}
   m_Color: {r: 0.29803923, g: 0.6901961, b: 0.8196079, a: 1}
   m_FlipX: 0
   m_FlipY: 0
